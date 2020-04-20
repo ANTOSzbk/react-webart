@@ -1,0 +1,17 @@
+{
+  "host": "${process.env.HOST || '127.0.0.1'}",
+  "port": "${process.env.PORT || 1337}",
+  "production": true,
+  "proxy": {
+    "enabled": false,
+    "ssl": false,
+    "host": "antoszbk.xyz",
+    "port": 1337
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "autoOpen": false
+  }
+}

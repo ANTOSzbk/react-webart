@@ -1,0 +1,44 @@
+
+    body {
+        background: #ffffff;
+        color: #222222;
+        font-family: "Planet Light", "Planet Light", sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        display: block;
+    }
+
+
+
+@media only screen and (max-width: 60em) {
+    .wrap {
+        margin: 0 40px;
+    }
+}
+
+.wrap {
+    padding: 64px 0 0;
+    max-width: 1410px;
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+    display: block;
+}
+
+#title {
+    color: black;
+    letter-spacing: 0.4px;
+    font-size: 1em;
+    font-style: bold;
+}
+
+a,
+a:link,
+a:visited {
+    font-family: "Planet Light", "Planet Light", sans-serif;
+    text-decoration: none;
+    color: darkslategrey;
+}

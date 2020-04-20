@@ -1,0 +1,27 @@
+@media only screen and (max-width: 75em) {
+    .sidebar {
+        width: 140px;
+    }
+}
+h1#owner-data {
+    margin-bottom: 3em !important;
+}
+ul {
+    padding-left: 0 !important;
+}
+
+.sidebar .sidebar.wrap {
+    position: fixed;
+    float: left;
+    width: 150px;
+    z-index: 9;
+}
+a:hover {
+    color: lightslategray;
+    text-decoration: none !important;
+    transition: .5s;
+}
+
+.item {
+    text-transform: uppercase;
+}
